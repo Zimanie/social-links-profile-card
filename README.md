@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here](https://github.com/Zimanie/social-links-profile-card)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
@@ -60,5 +60,6 @@ I would like to continue practicing what i have learnt by implementing it in the
 
 - Frontend Mentor - [@Zimanie](https://www.frontendmentor.io/profile/ZImanie)
 - Twitter - [@Zimanie5](https://www.twitter.com/Zimanie5)
+
 
 
