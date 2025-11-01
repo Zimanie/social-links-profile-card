@@ -1,0 +1,99 @@
+@font-face {
+    font-family: inter;
+    src: url(assets/fonts/Inter-VariableFont_opsz\,wght.ttf);
+    font-style: normal;
+    font-weight: 100 500;
+}
+@font-face {
+    font-family: inter;
+    src: url(assets/fonts/static/Inter_24pt-ExtraBold.ttf);
+    font-style: normal;
+    font-weight: 700 900;
+}
+:root {
+    --primary-color: hsl(75, 94%, 57%);
+    --secondary-color: hsl(0, 0%, 100%);
+    --grey700: hsl(0, 0%, 20%);
+    --grey800: hsl(0, 0%, 12%);
+    --grey900: hsl(0, 0%, 8%);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: inter, 'sans-serif';
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: var(--grey900);
+}
+
+.profile-card {
+    background-color: var(--grey800);
+    text-align: center;
+    padding: 25px;
+    border-radius: 8px;
+    width: 350px;
+}
+
+.profile-card img {
+    width: 80px;
+    border-radius: 50%;
+}
+
+.profile-card h1 {
+    font-size: 25px;
+    font-weight: 500;color: var(--secondary-color);
+    
+}
+.profile-card p {
+    color: gray;
+    font-size: 13px;
+    margin-top: 15px;
+}
+
+.profile-card span {
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.nav-links a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    background-color: var(--grey700);
+    display: block;
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: 500;
+    transition: background 0.2s ease;
+}
+
+.nav-links a:hover {
+    background-color: var(--primary-color);
+    color: var(--grey900);
+}
+
+@media (max-width: 375px) {
+    .profile-card {
+        width: 290px;
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
